@@ -12,5 +12,7 @@
 		비밀번호 : <input type="text" name="loginpw"><br><br>
 		<input type="submit" value="로그인">
 	</form>
+	<hr>
+	<a href="loginuser.jsp">로그인 유저 페이지 이동</a>
 </body>
 </html>
