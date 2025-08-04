@@ -13,10 +13,17 @@
 	
 		if(sid != null){ //true 일시 로그인한 상태 , false 일시 로그인이 안된상태
 			out.println("이 글은 로그인 상태에서만 보입니다");
+			out.println(sid + " 계정 로그인 성공");
 		}else {
 			out.println("이 글은 로그인안된 상태에서만 보입니다");
 		}
 		
 	%>
+	<br>
+	<a href="sessioninfo.jsp">세션 정보 바로가기</a>
+	<br>
+	<a href="sessionKeep.jsp">세션 유지시간 바로가기</a>
+	<br>
+	<a href="logout2.jsp">로그아웃</a>
 </body>
 </html>
