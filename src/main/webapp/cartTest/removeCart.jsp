@@ -11,6 +11,7 @@
 	
 	
 		//session.invalidate(); // 전체삭제, 로그인기록도 사라짐
+		
 		session.removeAttribute("cart"); // 카트만 지우기
 	
 	
